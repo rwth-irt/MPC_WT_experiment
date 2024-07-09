@@ -1,0 +1,35 @@
+Identifier;Unit;Description
+sensor_x_dtt;m/s^2;Accelerometer measurement of fore-aft acceleration, sensor located in the nacelle
+sensor_y_dtt;m/s^2;Accelerometer measurement of side-to-side acceleration, sensor located in the nacelle
+sensor_theta_1_dt;deg/s;Rate of pitch 1 measurement
+sensor_theta_2_dt;deg/s;Rate of pitch 2 measurement
+sensor_theta_3_dt;deg/s;Rate of pitch 3 measurement
+sensor_T_g;N m;Generator torque measurement
+sensor_omega_g;rpm;Rotational speed of the generator, measurement at the high-speed-shaft
+sensor_omega_h;rpm;Rotational speed of the hub, measurement at the low-speed-shaft
+sensor_theta_1;deg;Pitch 1 measurement
+sensor_theta_2;deg;Pitch 2 measurement
+sensor_theta_3;deg;Pitch 3 measurement
+sensor_P_g;kW;Electrical power measurement
+sensor_windSpeed;m/s;Wind speed measurement, sensor located on the nacelle
+EKF_state_omega_r;rad/s;EKF estimated state: rotor speed on low-speed-shaft
+EKF_state_omega_h;rad/s;EKF estimated state: hub speed on low-speed-shaft
+EKF_state_omega_g;rad/s;EKF estimated state: generator speed transformed to low-speed-shaft
+EKF_state_dPhi_rh;rad;EKF estimated state: angle between rotor and hub
+EKF_state_dPhi_hg;rad;EKF estimated state: angle between hub and generator
+EKF_state_x_t;m;EKF estimated state: fore-aft tower top displacement
+EKF_state_x_t_dt;m/s;EKF estimated state: fore-aft tower top velocity
+EKF_state_phi_b;rad;EKF estimated state: fore-aft blade deflection
+EKF_state_phi_b_dt;rad/s;EKF estimated state: fore-aft blade velocity
+EKF_state_theta;rad;EKF estimated state: collective pitch angle
+EKF_state_theta_dt;rad/s;EKF estimated state: collective pitch angle rate
+EKF_state_T_g;N m;EKF estimated state: generator torque transformed to low-speed-shaft
+EKF_state_v_windeff;m/s;EKF estimated state: rotor effective wind speed
+thrustForceEst;N;EKF estimated thrust force
+tipSpeedRatio_Est;-;EKF estimated tip speed ratio
+command_T_g;N m;Generator torque command
+command_theta_1_dt;deg/s;Rate of Pitch 1 command
+command_theta_2_dt;deg/s;Rate of Pitch 2 command
+command_theta_3_dt;deg/s;Rate of Pitch 3 command
+MPC_Active;-;Indicator that shows if the R-MPC is active and controls the WT
+TimeStamps;;Time
