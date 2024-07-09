@@ -1,6 +1,14 @@
 
 %% load data
-expDataSet = readtable('ExperimentalData.csv');
+expDataSet_01 = readtable('ExperimentalData_01.csv');
+expDataSet_02 = readtable('ExperimentalData_02.csv');
+expDataSet_03 = readtable('ExperimentalData_03.csv');
+expDataSet_04 = readtable('ExperimentalData_04.csv');
+expDataSet_05 = readtable('ExperimentalData_05.csv');
+expDataSet_06 = readtable('ExperimentalData_06.csv');
+
+expDataSet = [expDataSet_01; expDataSet_02; expDataSet_03; expDataSet_04; expDataSet_05; expDataSet_06];
+clear expDataSet_01 expDataSet_02 expDataSet_03 expDataSet_04 expDataSet_05 expDataSet_06
 
 % -- rated values of rotational speed and power
 omega_rated = 431; % / rpm
