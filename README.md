@@ -2,7 +2,9 @@ Authors: Andreas Klein, Thorben Wintermeyer‐Kallen, János Zierath, W2E Wind t
 Date of the experiment: December 13, 2023
 
 
-
+How to plot:
+unzip all "ExperimentalData_0X.zip".
+run "plotData.m"
 
 Data information:
 "ExperimentalData.csv" contains the full experimental dataset of the R-MPC controlling an industrial 3 MW WT in norhtern Germany. The experiment was performend on the 13.12.2023.
