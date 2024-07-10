@@ -1,4 +1,25 @@
 
+
+%% unzip
+if ~isfile('ExperimentalData_01.csv')
+    unzip('ExperimentalData_01.zip');
+end
+if ~isfile('ExperimentalData_02.csv')
+    unzip('ExperimentalData_02.zip');
+end
+if ~isfile('ExperimentalData_03.csv')
+    unzip('ExperimentalData_03.zip');
+end
+if ~isfile('ExperimentalData_04.csv')
+    unzip('ExperimentalData_04.zip');
+end
+if ~isfile('ExperimentalData_05.csv')
+    unzip('ExperimentalData_05.zip');
+end
+if ~isfile('ExperimentalData_06.csv')
+    unzip('ExperimentalData_06.zip');
+end
+
 %% load data
 expDataSet_01 = readtable('ExperimentalData_01.csv');
 expDataSet_02 = readtable('ExperimentalData_02.csv');
